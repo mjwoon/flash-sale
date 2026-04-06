@@ -1,0 +1,64 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Backend (Gradle / Spring Boot)
+# =========================
+backend/.gradle/
+backend/build/
+backend/out/
+backend/bin/
+
+# Spring Boot runtime outputs
+backend/*.pid
+backend/*.hprof
+
+# =========================
+# Frontend (Node / Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# =========================
+# Test / Coverage outputs
+# =========================
+**/coverage/
+**/.nyc_output/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Local tooling folders
+# =========================
+.omc/
