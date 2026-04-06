@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "started_at": "2026-04-06T11:34:36.839Z",
+  "original_prompt": "/autopilot   1단계 (안전, 독립): A — Redisson 교체 (인터페이스 동일, 내부만 변경)\n  2단계 (안전, 독립): B — Outbox 릴레이 활성화 (엔티티 이미 존재)                                                                                                            \n  3단계 (중간 난도):  C — 도메인 로직 이동 (서비스 테스트 영향)                                                                                                              \n  4단계 (연계):       D — 락 범위 축소 (A, B, C 완료 후 적용)    이 작업들을 계획대로 진행하고 코드를 구현해줘",
+  "session_id": "3765b5d0-50e6-4826-9bb5-2df2dba74eff",
+  "project_path": "/Users/mjwoon/Workspace/flash-sale/backend",
+  "reinforcement_count": 0,
+  "awaiting_confirmation": true,
+  "last_checked_at": "2026-04-06T11:34:36.841Z"
+}

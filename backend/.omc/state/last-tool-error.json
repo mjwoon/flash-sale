@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"./gradlew test 2>&1\",\"timeout\":180000,\"description\":\"Run all tests\"}",
+  "error": "Exit code 1\n> Task :compileJava UP-TO-DATE\n> Task :processResources UP-TO-DATE\n> Task :classes UP-TO-DATE\n> Task :compileTestJava\n> Task :processTestResources UP-TO-DATE\n> Task :testClasses\nOpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended\n\n> Task :test\n\nOrderServiceConcurrencyTest > 재고 부족 시 InsufficientStockException 발생 FAILED\n    java.lang.AssertionError at OrderServiceConcurrencyTest.java:171\n\nOrderServiceConcurre...",
+  "timestamp": "2026-04-06T11:44:16.564Z",
+  "retry_count": 1
+}

@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: spring-boot
+    orgId: 1
+    folder: Spring Boot
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/dashboards
